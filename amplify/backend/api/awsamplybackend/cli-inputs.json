@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsamplybackend",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\GITHUB\\awsamplify\\amplifyapp\\amplify\\backend\\api\\awsamplybackend\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-03-25T22:03:48.543Z",
+      "keyDescription": "demo"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authawsamplybackendcd8a636b"
+      }
+    ]
+  }
+}

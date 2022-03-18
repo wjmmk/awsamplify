@@ -1,0 +1,12 @@
+{
+  "resourceName": "s35ee46202",
+  "policyUUID": "5ee46202",
+  "bucketName": "awsamplybackendc7e5618521a44d08b7ec858bd287b3ba",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
