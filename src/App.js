@@ -79,6 +79,7 @@ function App() {
               <p>{note.description}</p>
               <button onClick={() => deleteNote(note)}>Delete note</button>
               {
+                // eslint-disable-next-line jsx-a11y/alt-text
                 note.image && <img src={note.image} style={{width: 400}} />
               }
             </div>
